@@ -1,0 +1,103 @@
+.FirstHalf {
+    background: linear-gradient(orange, yellow, green);
+    display: flex;
+    width: 50vw;
+    height: 100vh;
+}
+
+.penis {
+    height: 100%;
+    width: 50vw;
+    position: relative;
+    background-image: url("maxresdefault.jpg");
+    background-repeat: repeat-y;
+    background-size: 100% auto;
+    opacity: 40%;
+}
+
+
+
+.SecondHalf {
+    flex-direction: column;
+    width: 50vw;
+    height: 100vh;
+    margin-left: 40px;
+}
+
+.Main {
+    display: flex;
+}
+
+body {
+    margin: 0;
+}
+
+.text {
+    font-family: "Arial Black", serif;
+    margin-bottom: 15px;
+}
+
+.first {
+    color: yellow;
+}
+
+.second {
+    color: green;
+}
+
+.third {
+    color: beige;
+}
+
+.dots {
+    margin-top: 10vh;
+    display: flex;
+    font-size: 500%;
+}
+
+.dots p {
+    margin: 0;
+}
+
+.anotherText {
+    font-family: "Arial Black", serif;
+}
+
+.haf {
+    display: flex;
+}
+
+.green {
+    color: green;
+    font-family: "Arial Black", serif;
+}
+
+.yellow {
+    font-family: "Arial Black", serif;
+    color: yellow;
+}
+
+.gr {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    width: 50vw;
+    height: 100vh;
+    position: absolute;
+}
+
+.button {
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 20px;
+    background-color: green;
+    color: white;
+    border: 0 solid white;
+}
+
+@media screen and (max-width: 980px) {
+    .FirstHalf {
+
+        display: none;
+    }
+}
